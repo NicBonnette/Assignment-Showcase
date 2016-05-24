@@ -1,0 +1,20 @@
+This package performs Perceptron training and testing on uniform-sized image objects
+
+the main class is in PerceptronTrainer Class
+
+There are 3 run options:
+[training_file] - The perceptron is trained on data in training file, using 50 randomly generated features
+[training_file] [num_features] - the perceptron is trained using the specified number of randomly generated 
+									features
+[training_file] [num_features] [test_file1] ... - perceptron is trained using specified number of features, 
+									and then applied to all test files, and accuracy is reported
+	
+
+From command line, with Perceptron.jar, image.data, testYes.data, testOther.data, testScribble.data 
+all in the same directory, call:
+java -jar Perceptron.jar image.data
+java -jar Perceptron.jar image.data 30
+java -jar Perceptron.jar image.data 50 testYes.data testOther.data testScribble.data 
+
+ 
+
