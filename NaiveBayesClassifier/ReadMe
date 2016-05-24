@@ -1,0 +1,12 @@
+This package runs uses a Naive Bayes classifier to categorize files as spam or not spam
+according to the presence or absence of various features.  A file of classified data (binary feature values and classification)
+are supplied to main, and used to build the classifier.  A file of unclassified data (binary feature values) is also
+supplied to main... and is classified by the built classifier. 
+
+There is a single run option.
+Run in eclipse, or from command line with: 
+java -jar NaiveBayes spamLabelled.dat spamUnlabelled.dat
+
+
+ 
+
